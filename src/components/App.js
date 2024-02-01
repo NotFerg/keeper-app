@@ -1,12 +1,12 @@
 import React from "react";
-import Heading from "./headingComponent/Heading.jsx";
-import Footer from "./Footer.jsx"
-import Note from "./Note.jsx"
+import Header from "./headingComponent/Heading.jsx";
+import Footer from "./footerComponent/Footer.jsx"
+import Note from "./noteComponent/Note.jsx"
 
 function App() {
   return (
    <div>
-    <Heading />
+    <Header/>
     <Note />
     <Footer />
    </div>

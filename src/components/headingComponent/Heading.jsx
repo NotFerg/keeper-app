@@ -1,11 +1,13 @@
 import React from "react";
-import styles from "./heading.module.css"; // Change the file extension to .module.css
+import styles from "./heading.module.css";
 
 function Heading(){
     return (
-        <div className={styles.heading}>
-            <h1 > Keeper app</h1>
-        </div>
+        <header>
+            <h1>Keeper App</h1>
+        </header>
+
+        
     )
 }
 
